@@ -1,0 +1,28 @@
+# Dados e arquivos privados
+private/
+data/private/
+data/raw/
+
+# Segredos e configurações locais
+.env
+.env.*
+*.secret
+*.secrets
+credentials.json
+credentials*.json
+secrets.json
+secrets*.json
+
+# Logs e backups
+*.log
+*.bak
+*.backup
+
+# Arquivos temporários do Power BI / Office / Windows
+*.tmp
+~$*
+Thumbs.db
+Desktop.ini
+
+# Arquivos locais de sistema
+.DS_Store
